@@ -14,6 +14,7 @@
 		CD81E3DF29FA787D0012DC1E /* HelloAppleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD81E3DE29FA787D0012DC1E /* HelloAppleTests.swift */; };
 		CD81E3E929FA787D0012DC1E /* HelloAppleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD81E3E829FA787D0012DC1E /* HelloAppleUITests.swift */; };
 		CD81E3EB29FA787D0012DC1E /* HelloAppleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD81E3EA29FA787D0012DC1E /* HelloAppleUITestsLaunchTests.swift */; };
+		CDA2F41E2CB152D800A5DCFF /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2F41D2CB152D800A5DCFF /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CD81E3E429FA787D0012DC1E /* HelloAppleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloAppleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD81E3E829FA787D0012DC1E /* HelloAppleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAppleUITests.swift; sourceTree = "<group>"; };
 		CD81E3EA29FA787D0012DC1E /* HelloAppleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAppleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDA2F41D2CB152D800A5DCFF /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				CD81E3CF29FA787A0012DC1E /* ContentView.swift */,
 				CD81E3D129FA787D0012DC1E /* Assets.xcassets */,
 				CD81E3D329FA787D0012DC1E /* Preview Content */,
+				CDA2F41D2CB152D800A5DCFF /* SafariView.swift */,
 			);
 			path = HelloApple;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD81E3D029FA787A0012DC1E /* ContentView.swift in Sources */,
+				CDA2F41E2CB152D800A5DCFF /* SafariView.swift in Sources */,
 				CD81E3CE29FA787A0012DC1E /* HelloAppleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
