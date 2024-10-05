@@ -46,6 +46,7 @@
 		CD81E3E829FA787D0012DC1E /* HelloAppleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAppleUITests.swift; sourceTree = "<group>"; };
 		CD81E3EA29FA787D0012DC1E /* HelloAppleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAppleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CDA2F41D2CB152D800A5DCFF /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		CDA2F4212CB170E000A5DCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		CD81E3CC29FA787A0012DC1E /* HelloApple */ = {
 			isa = PBXGroup;
 			children = (
+				CDA2F4212CB170E000A5DCFF /* Info.plist */,
 				CD81E3CD29FA787A0012DC1E /* HelloAppleApp.swift */,
 				CD81E3CF29FA787A0012DC1E /* ContentView.swift */,
 				CD81E3D129FA787D0012DC1E /* Assets.xcassets */,
@@ -423,6 +425,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HelloApple/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloApple/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +454,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HelloApple/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloApple/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
